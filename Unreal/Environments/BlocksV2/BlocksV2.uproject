@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{F269E6FD-4BB6-E4DA-E92F-03B461D704E7}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "BlocksV2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AirSim"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AirSim",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
